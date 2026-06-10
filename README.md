@@ -1,5 +1,8 @@
 # MIProtocolo
 
+> [!NOTE]
+> This repository has been migrated to Codeberg, please see: https://codeberg.org/bluice/miprotocolo
+
 Crie protocolos para envio e recebimento de documentos. Gere relatórios para impressão e PDF.
 
 ## InformaÇões
