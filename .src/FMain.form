@@ -34,8 +34,8 @@
     }
     { Menu9 Menu
     }
-    { mnuAssinantes Menu
-      Text = ("Assinantes")
+    { mnuSuporte Menu
+      Text = ("Suporte")
     }
     { Menu6 Menu
     }

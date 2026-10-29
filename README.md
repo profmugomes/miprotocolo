@@ -1,10 +1,26 @@
-# MIProtocolo
+# MiProtocolo
 
 Crie protocolos para envio e recebimento de documentos. Gere relatórios para impressão e PDF.
 
-## InformaÇões
+## Information
 
-- [Página MiProtocolo](https://www.mugomes.com.br/2025/07/miprotocolo.html)
+ - [Repository MiProtocolo](https://github.com/profmugomes/miprotocolo)
+
+## System Requirement
+
+### Linux
+
+- Ubuntu 26.04 or higher
+
+## 👤 Autor
+
+**Murilo Gomes**
+
+🔗 [https://www.profmugomes.com.br](https://www.profmugomes.com.br)
+
+📺 [https://youtube.com/@profmugomes](https://youtube.com/@profmugomes)
+
+---
 
 ## License
 
