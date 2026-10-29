@@ -1,9 +1,9 @@
 ' Gambas class file
 
-' Copyright (C) 2025 Murilo Gomes Julio
+' Copyright (C) 2025-2026 Murilo Gomes <profmugomes.com.br>
 ' SPDX-License-Identifier: GPL-2.0-only
 
-' Site: https://www.mugomes.com.br
+' Site: https://www.profmugomes.com.br
 
 Public sIDs As String = ""
 Private $conecta As Connection
@@ -107,9 +107,9 @@ Public Sub Report_Open()
     b = New ReportTextLabel(ReportVBox1)
     
     If IsInteger(rs!nome) = True Then 
-      b.Text = getIDCliente(rs!nome)
+      b.Text = "<font color=black>" & getIDCliente(rs!nome) & "</font>"
     Else 
-      b.Text = rs!nome 
+      b.Text = "<font color=black>" & rs!nome & "</font>"
     Endif 
     b.Font.Size = 12
     
@@ -123,7 +123,7 @@ Public Sub Report_Open()
     
     For Each row As String In s
       b = New ReportTextLabel(ReportVBox1)
-      b.Text = row
+      b.Text = "<font color=black>" & row & "</font>"
       b.Font.Size = 12
     Next 
     
